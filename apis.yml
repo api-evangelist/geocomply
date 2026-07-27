@@ -1,8 +1,16 @@
 aid: geocomply
 name: Geocomply
-description: 'Geocomply is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'GeoComply is a geolocation compliance, digital identity, and fraud-prevention
+  company that provides the location-verification and anti-fraud intelligence layer behind
+  many of the world''s most regulated digital platforms. Its product suite spans GeoComply
+  Core (location-based fraud detection and geolocation compliance), IDComply (KYC and AML
+  identity verification), GeoGuard (VPN and proxy/spoofing detection), PinPoint (on-property
+  geofencing), the Chargeback Integrator (GCI), and the OneComply licensing-management
+  platform, serving the iGaming, financial services, media/entertainment, and cryptocurrency
+  industries. GeoComply''s integrations are enterprise, sales-led engagements rather than a
+  public self-serve developer portal; this profile was surfaced as a Norwest Venture Partners
+  portfolio company and has been enriched from GeoComply''s public security, trust, and
+  discovery surface.'
 url: https://raw.githubusercontent.com/api-evangelist/geocomply/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,32 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.geocomply.com/wp-content/uploads/home-thumbail.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Geolocation
+- Compliance
+- Fraud Prevention
+- Identity Verification
+- KYC
+- Anti-Fraud
+- iGaming
+- Financial Services
+- Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,28 @@ maintainers:
 common:
 - type: Website
   url: https://geocomply.com
+- type: Blog
+  url: https://www.geocomply.com/blog/
+- type: PrivacyPolicy
+  url: https://www.geocomply.com/privacy-statement/
+- type: TermsOfService
+  url: https://www.geocomply.com/application-terms-of-use/
+- type: TrustCenter
+  url: https://trust.geocomply.com/
+- type: Security
+  url: security/geocomply-vulnerability-disclosure.yml
+- type: VulnerabilityDisclosure
+  url: security/geocomply-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/geocomply-domain-security.yml
+- type: SecurityTxt
+  url: well-known/geocomply-security.txt
+- type: WellKnown
+  url: well-known/geocomply-well-known.yml
+- type: LLMsTxt
+  url: llms/geocomply-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

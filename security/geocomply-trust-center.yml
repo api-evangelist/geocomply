@@ -1,0 +1,33 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+url: https://trust.geocomply.com/
+provider: Vanta
+summary: >-
+  GeoComply operates a Vanta-hosted Trust Center where prospects and customers
+  can review its security posture and request access to gated security
+  documentation. The Trust Center confirms an active, automated compliance
+  program; individual certification reports (e.g. audit letters) are made
+  available on request behind an NDA/access-approval flow rather than published
+  as open documents.
+description_quote: >-
+  Welcome to GeoComply's Trust Center. Our commitment to data privacy and
+  security is embedded in every part of our business. Use this Trust Center to
+  learn about our security posture and request access to our security
+  documentation.
+certifications: []
+certifications_note: >-
+  Named certification reports are gated behind the Trust Center's document-request
+  flow and were not published in the open page body, so none are asserted here to
+  avoid fabrication. Confirm specific standards (SOC 2 / ISO 27001) via the
+  document-request workflow before asserting them.
+evidence:
+- source: https://trust.geocomply.com/
+  kind: vanta-trust-center
+  signals:
+  - Vanta assets/fonts (assets.vanta.com) and og:image app.vanta.com/doc
+  - meta description references "security posture" and "request access to our security documentation"
+- source: https://www.geocomply.com/llms.txt
+  kind: llms.txt-link
+  signals:
+  - 'Trust Center link: https://trust.geocomply.com/'
