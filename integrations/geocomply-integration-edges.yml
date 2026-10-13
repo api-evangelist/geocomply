@@ -1,0 +1,24 @@
+generated: '2026-10-13'
+method: searched
+checked:
+- https://aws.amazon.com/marketplace/
+marketplace_apps: []
+edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=3d3bf13e-ba1f-4441-aebc-fb6f529710e7
+  listing_count: 4
+  apps:
+  - Anonymous IP Advanced Protection - Per Web ACL pricing - GeoGuard
+  - Anonymous IP Advanced Protection - Per request pricing - GeoGuard
+  - GeoComply Core
+  - GeoComply Core
+  seller_name: GeoComply
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
