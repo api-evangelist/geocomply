@@ -2,13 +2,17 @@
   "repo": "geocomply",
   "feeds": [
     {
-      "source": "https://geocomply.com",
-      "feed_url": "https://geocomply.com",
+      "source": "https://www.geocomply.com/blog/",
+      "feed_url": "https://www.geocomply.com/blog/",
       "title": "",
       "saved": 0,
       "method": "none"
+    },
+    {
+      "source": "https://geocomply.com",
+      "error": "HTTPError"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
